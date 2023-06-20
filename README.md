@@ -57,24 +57,24 @@
 ### Training
 
 - 업비트, 바이낸스의 API를 이용, Facebook의 Facebook Prophet을 이용한 시계열 분석을 진행하였습니다.
-- 
+  
   - 변동성 돌파 전략을 통한 매수전략을 사용했습니다.
-  - 
+    
 - 추가적으로 MACD,OBV,ADX,RSI등의 다양한 보조지표를 구현하여 추가적인 판단에 이용했습니다
-- 
+  
   - 구현된 보조지표는 MACD,OBV,ADX,RSI,CCI,STOCK_RSI,HAIKIN_ASHI,MA입니다.
 
 
 ### Auto-buy-sell
 
 - 위의 데이터를 기준으로 각 판단기준에 맞을 경우 자동을 매수,매도를 진행합니다.
-- 
+  
   - pyupbit.get_ohlcv를 이용해 데이터를 추출, 판단 후 market_dorder를 사용해 매수, 매도를 구현했습니다.
 
 ### Messeging
 
 - AI 봇 메신저 slacker를 이용하여 매수, 매도 상황, 오류 발생시 알림을 구현했습니다.
-- 
+  
   - slacker의 post_message를 사용해 구현했습니다.
 
 
