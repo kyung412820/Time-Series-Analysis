@@ -1,7 +1,7 @@
 <br>
 
 
-# [HANSUNG STOCK] 딥러닝을 이용한 주가 예측 및 주식 매매 자동화 웹 서비스
+# [Time-Series-Analysis] 시계열 분석과 보조지표를 이용한 코인 변동가 예측 서비스
 
 <br>
 
